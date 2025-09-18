@@ -3,5 +3,6 @@ def add_one(num) :
 
 x = 3
 print("Before :", x)
-add_one(x)
+x = add_one(x)
+
 print("After :", x)
